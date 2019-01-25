@@ -1,5 +1,5 @@
 Demo:
-https://fcc-product-landing-page.netlify.com/
+https://technical-documentation-page.netlify.com/
 
 
 This is a project for freeCodeCamp (freecodecamp.org) to build a Technical Documentation Page.
