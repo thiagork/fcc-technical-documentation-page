@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Documentation Page project for freeCodeCamp</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header id="menu-title">
+            <a href="index.html">Hello World! in 5 different programming languages</a>
+        </header>
+        <div>
+            <a href="#C" class="nav-link">C</a>
+        </div>
+        <div>
+            <a href="#Haskell" class="nav-link">Haskell</a>
+        </div>
+        <div>
+            <a href="#Java" class="nav-link">Java</a>
+        </div>
+        <div>
+            <a href="#JavaScript" class="nav-link">JavaScript</a>
+        </div>
+        <div>
+            <a href="#Python" class="nav-link">Python</a>
+        </div>                    
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="C">
+            <header>
+                <h2>C</h2>
+            </header>
+            <div>
+                <p>Bellow an example of Hello World using the C language.</p>
+                <p>C is the language that made “Hello, World” examples popular.</p>
+                <pre>
+                    <code>
+                    #include &lt;stdio.h&gt;
+                    
+                    int main(void)
+                    {
+                        printf("hello, world\n");
+                    }
+                    </code>  
+                </pre>
+                <p>Interesting facts about C:</p>         
+                <ul>
+                    <li>It was developed and released around the year 1972.</li>
+                    <li>Most popular Linux Kernel and most UNIX utilities, what you would call the operating system are written in C.</li>
+                    <li>C is not an object oriented language so you don’t get distracted by things like inheritance and polymorphism.</li>
+                    <li>The C language has formed the basis for many languages including C++, Java, JavaScript, Go, Rust, Limbo, LPC, C#, PHP, Python, Perl, Verilog, and C-shell.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-section" id="Haskell">
+            <header>
+                <h2>Haskell</h2>
+            </header>
+            <div>
+                <p>Bellow an example of Hello World using Haskell.</p>
+                <p>Haskell is a strongly-typed, purely functional programming language.</p>
+                <pre>
+                    <code>
+                    module Main where
+                    
+                    main :: IO ()
+                    main = putStrLn "Hello, World!"
+                    </code>
+                </pre>
+                <p>Interesting facts about Haskell:</p>
+                <ul>
+                    <li>It is named after logician Haskell Curry.</li>
+                    <li>Unlike the other languages listed in this website, Haskell is a purely functional.</li>
+                    <li>It is lazy evaluated, which means it never calculates anything until it needs to.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-section" id="Java">
+            <header>
+                <h2>Java</h2>
+            </header>
+            <div>
+                <p>Bellow an example of Hello World using Java.</p>
+                <p>Something that made Java special is that it was designed so you could write code once and then allow it to run on any operation system</p>
+                <pre>
+                    <code>
+                    class HelloWorldApp {
+                        public static void main(String[] args) {
+                            System.out.println("Hello World!");
+                        }
+                    }
+                    </code>
+                </pre>
+                <p>Interesting facts about Java:</p>
+                <ul>
+                    <li>Sun Microsystems created Java. Java was originally called Oak. Oracle now oversees Java after its acquisition of Sun in 2010.</li>
+                    <li>Java is an enterprise favorite. Some say it runs up to 95% of enterprise desktops.</li>
+                    <li>Java was originally designed for interactive TV, but the digital cable industry wasn’t ready for the technology.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-section" id="JavaScript">
+            <header>
+                <h2>JavaScript</h2>
+            </header>
+            <div>
+                <p>Bellow an example of Hello World using JavaScript.</p>
+                <p>JavaScript is the most commonly found programming language in the world, as it runs on every browser.</p>
+                <pre>
+                    <code>
+                    console.log("Hello World!");
+                    </code>
+                </pre>
+                <p>Interesting facts about JavaScript:</p>
+                <ul>
+                    <li>JavaScript was created in 10 days only and when released, it used to cover a very small portion of a proper programming language.</li>
+                    <li>JavaScript was being developed under the name Mocha.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-section" id="Python">
+            <header>
+                <h2>Python</h2>
+            </header>
+            <div>
+                <p>Bellow an example of Hello World using Python.</p>
+                <p>Python has a compact syntax needing far fewer lines of code than languages like Java or C. It's is the fastest growing language currently.</p>
+                <pre>
+                    <code>
+                    print("Hello World")
+                    </code>
+                </pre>
+                <p>Interesting facts about Python:</p>
+                <ul>
+                    <li>Python uses indentation instead of braces to structure its programs and scripts into blocks.</li>
+                    <li>According to the creator Guido Van Rossum, the name of this language was derived from the British comedy series “Monty Python’s Flying Circus”.</li>
+                    <li>Unlike other programming languages, Python does not support pointers. Instead, objects are passed by reference.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
